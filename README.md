@@ -19,11 +19,13 @@ Due to hardware limitations for training, only tomato plants were selected. Here
 
 <img width="558" alt="image" src="https://github.com/user-attachments/assets/d07b4d57-b87c-42af-8f37-7134c19d10cf" />
 
+
 Image Distribution
 From 10 tomato classes, 4 classes were selected again with the distribution of each class as follows:
 
 Condition Number of Images
 <img width="302" alt="image" src="https://github.com/user-attachments/assets/6b4db9b4-736e-4e08-a06a-1b69458e4698" />
+
 
 Evaluation Model
 Model Architecture
@@ -47,6 +49,7 @@ Dense output layer with 4 units and softmax activation for multi-class classific
 
 Accuracy and Loss Graph
 <img width="495" alt="image" src="https://github.com/user-attachments/assets/e9786ea2-ede1-42a8-a1d5-2cb8430e43e5" />
+
 
 
 Predict
