@@ -1,63 +1,104 @@
-# Plant-Classification
+# Penilaian Proyek
 
-Additional criteria that I worked on to get the best score:
+Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
+1. Mengimplementasikan Callback
+2. Gambar-gambar pada dataset memiliki resolusi yang tidak seragam.
+3. Dataset yang digunakan berisi lebih dari 10000 gambar.
+4. Akurasi pada training set dan validation set minimal 95%.
+5. Memiliki 3 buah kelas atau lebih.
+6. Melakukan inference menggunakan salah satu model (TF-Lite, TFJS atau savedmodel dengan tf serving).
 
-Implement Callback
-The images in the dataset have non-uniform resolution.
-The dataset used contains more than 10,000 images.
-The accuracy of the training set and validation set is at least 95%.
-Has 3 or more classes.
-Perform inference using one of the models (TF-Lite, TFJS or savedmodel with tf serving).
-Project Explanation
-This project is a project to create a model that can classify images. Given the freedom to choose the dataset you want to use.
+# Penjelasan Proyek
+Proyek ini merupakan proyek untuk membuat sebuah model yang dapat melakukan klasifikasi gambar. Diberikan kebebasan untuk memilih dataset yang ingin digunakan.
 
-Dataset
-The dataset is data taken from GitHub. The dataset has a total of 14 plants divided into 38 different classes. By default, the resolution of the image is 256x256, but to meet the criteria, the dataset is randomly changed to a size with a minimum range of 200x200 to 256x256.
+## Dataset
+Dataset merupakan data yang diambil dari [GitHub](https://github.com/spMohanty/PlantVillage-Dataset/tree/master). Dataset memiliki total 14 tanaman yang terbagi menjadi 38 kelas berbeda. Secara default resolusi dari gambar adalah 256x256, namun untuk memenuhi kriteria maka dataset secara acak diubah menjadi ukuran dengan range minimum 200x200 hingga 256x256.
 
-Preview Image
-Due to hardware limitations for training, only tomato plants were selected. Here are examples of images from each class of tomato plants:
+## Preview Image
+Karena keterbatasan hardware untuk melakukan training, hanya tanaman tomat saja yang dipilih. Berikut adalah contoh gambar dari masing-masing kelas tanaman tomat:
 
-<img width="558" alt="image" src="https://github.com/user-attachments/assets/d07b4d57-b87c-42af-8f37-7134c19d10cf" />
-
-
-Image Distribution
-From 10 tomato classes, 4 classes were selected again with the distribution of each class as follows:
-
-Condition Number of Images
-<img width="302" alt="image" src="https://github.com/user-attachments/assets/6b4db9b4-736e-4e08-a06a-1b69458e4698" />
-
-
-Evaluation Model
-Model Architecture
-MobileNetV2 Pre-trained:
-
-Using MobileNetV2 that has been trained on ImageNet by removing the top layer (include_top=False).
-The model input size is (150, 150, 3).
-Frozen Layer:
-
-All MobileNetV2 layers are frozen (layer.trainable = False) to maintain the trained weights and features.
-Additional Layers:
-
-Conv2D layer with 32 filters, kernel size 3x3, and ReLU activation, followed by MaxPooling2D with pool size 2x2.
-Conv2D layer with 64 filters, kernel size 3x3, and ReLU activation, followed by MaxPooling2D with pool size 2x2.
-Flatten and Fully Connected Layers:
-
-The features obtained from the previous layer are flattened using Flatten.
-Dropout layer with rate 0.5 to prevent overfitting.
-Dense layer with 128 units and ReLU activation.
-Dense output layer with 4 units and softmax activation for multi-class classification.
-
-Accuracy and Loss Graph
-<img width="495" alt="image" src="https://github.com/user-attachments/assets/e9786ea2-ede1-42a8-a1d5-2cb8430e43e5" />
+<img width="570" alt="image" src="https://github.com/user-attachments/assets/09dac9ec-64d0-41c1-8fba-46fdbfa88751" />
 
 
 
-Predict
-No True Predicted
-1 Healthy Healthy
-2 Late_blight Late_blight
-3 Septoria_leaf_spot Septoria_leaf_spot
-4 Tomato_Yellow_Leaf_Curl_Virus Tomato_Yellow_Leaf_Curl_Virus
-How To Inference
-Inference Using TensorFlow Serving.
+## Distribusi Gambar
+Dari 10 kelas tomat dipilih kembali 4 kelas dengan distribusi masing-masing kelas sebagai berikut:
 
+| Condition                     | Number of Images |
+|-------------------------------|------------------|
+| Tomato_Yellow_Leaf_Curl_Virus | 5357             |
+| Late_blight                   | 1909             |
+| Healthy                       | 1591             |
+| Septoria_leaf_spot            | 1771             |
+| **Total**                     | **10628**        |
+
+
+# Model Evaluasi
+## Arsitektur Model
+1. **MobileNetV2 Pre-trained**:
+    - Menggunakan MobileNetV2 yang telah dilatih pada ImageNet dengan menghapus top layer (`include_top=False`).
+    - Ukuran input model adalah `(150, 150, 3)`.
+
+2. **Layer Beku**:
+    - Semua layer MobileNetV2 dibekukan (`layer.trainable = False`) untuk mempertahankan bobot dan fitur yang telah dilatih.
+
+3. **Layer Tambahan**:
+    - Layer `Conv2D` dengan 32 filter, kernel size 3x3, dan aktivasi ReLU, diikuti oleh `MaxPooling2D` dengan pool size 2x2.
+    - Layer `Conv2D` dengan 64 filter, kernel size 3x3, dan aktivasi ReLU, diikuti oleh `MaxPooling2D` dengan pool size 2x2.
+
+4. **Layer Flatten dan Fully Connected**:
+    - Fitur yang didapatkan dari layer sebelumnya di-flatten menggunakan `Flatten`.
+    - Layer `Dropout` dengan rate 0.5 untuk mencegah overfitting.
+    - Layer `Dense` dengan 128 unit dan aktivasi ReLU.
+    - Layer output `Dense` dengan 4 unit dan aktivasi softmax untuk klasifikasi multi-kelas.
+
+## Grafik Akurasi dan Loss 
+
+
+<img width="518" alt="image" src="https://github.com/user-attachments/assets/fa214c1a-e59e-4fb3-91cf-571b15a3f563" />
+
+
+| Epoch | Loss   | Accuracy | Val Loss | Val Accuracy |
+|-------|--------|----------|----------|--------------|
+| 1/10  | 0.0547 | 0.9843   | 0.0778   | 0.9755       |
+| 2/10  | 0.0547 | 0.9843   | 0.0778   | 0.9755       |
+| 3/10  | 0.0547 | 0.9843   | 0.0778   | 0.9755       |
+| 4/10  | 0.0547 | 0.9843   | 0.0778   | 0.9755       |
+| 5/10  | 0.0547 | 0.9843   | 0.0778   | 0.9755       |
+| 6/10  | 0.0547 | 0.9843   | 0.0778   | 0.9755       |
+| 7/10  | 0.0547 | 0.9843   | 0.0778   | 0.9755       |
+| 8/10  | 0.0547 | 0.9843   | 0.0778   | 0.9755       |
+| 9/10  | 0.0547 | 0.9843   | 0.0778   | 0.9755       |
+| 10/10 | 0.0547 | 0.9843   | 0.0778   | 0.9755       |
+
+## Predict
+| No | True                           | Predicted                      |
+|----|-------------------------------|--------------------------------|
+| 1  | Healthy                        | Healthy                        |
+| 2  | Late_blight                    | Late_blight                    |
+| 3  | Septoria_leaf_spot             | Septoria_leaf_spot             |
+| 4  | Tomato_Yellow_Leaf_Curl_Virus  | Tomato_Yellow_Leaf_Curl_Virus  |
+
+# How To Inference
+Inference Menggunakan TensorFlow Serving.
+- Siapkan docker dekstop
+- Jalan command berikut pada terminal
+    ```
+    docker pull tensorflow/serving
+    ```
+- Install TensorFlow Serving Python API
+    ```
+    pip install tensorflow-serving-api
+    ```
+- Jalan command berikut pada terminal, ubah `YOUR_PATH`
+    ```
+    docker run -it -v YOUR_PATH\saved_model:/models -p 8501:8501 --entrypoint /bin/bash tensorflow/serving
+    ```
+- Jalan command berikut pada terminal
+    ```
+    tensorflow_model_server --rest_api_port=8501 --model_name=klasifikasi_model --model_base_path=/models/saved_model/
+    ```
+- Buka URL berikut pada browser untuk memastikan model berjalan
+    ```
+    http://localhost:8501/v1/models/klasifikasi_model
+    ```
