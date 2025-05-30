@@ -1,4 +1,4 @@
-# Penilaian Proyek
+# 🍦🧁🦪 Penilaian Proyek 🦪🧁🍦
 
 Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 1. Mengimplementasikan Callback
@@ -8,20 +8,20 @@ Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 5. Memiliki 3 buah kelas atau lebih.
 6. Melakukan inference menggunakan salah satu model (TF-Lite, TFJS atau savedmodel dengan tf serving).
 
-# Penjelasan Proyek
+# 🍦🧁🦪 Penjelasan Proyek 🦪🧁🍦
 Proyek ini merupakan proyek untuk membuat sebuah model yang dapat melakukan klasifikasi gambar. Diberikan kebebasan untuk memilih dataset yang ingin digunakan.
 
-## Dataset
+## 🍦🧁🦪 Dataset 🦪🧁🍦
 Dataset merupakan data yang diambil dari [GitHub](https://github.com/spMohanty/PlantVillage-Dataset/tree/master). Dataset memiliki total 14 tanaman yang terbagi menjadi 38 kelas berbeda. Secara default resolusi dari gambar adalah 256x256, namun untuk memenuhi kriteria maka dataset secara acak diubah menjadi ukuran dengan range minimum 200x200 hingga 256x256.
 
-## Preview Image
+## 🍦🧁🦪 Preview Image 🦪🧁🍦
 Karena keterbatasan hardware untuk melakukan training, hanya tanaman tomat saja yang dipilih. Berikut adalah contoh gambar dari masing-masing kelas tanaman tomat:
 
 <img width="570" alt="image" src="https://github.com/user-attachments/assets/09dac9ec-64d0-41c1-8fba-46fdbfa88751" />
 
 
 
-## Distribusi Gambar
+## 🍦🧁🦪 Distribusi Gambar 🦪🧁🍦
 Dari 10 kelas tomat dipilih kembali 4 kelas dengan distribusi masing-masing kelas sebagai berikut:
 
 | Condition                     | Number of Images |
@@ -33,7 +33,7 @@ Dari 10 kelas tomat dipilih kembali 4 kelas dengan distribusi masing-masing kela
 | **Total**                     | **10628**        |
 
 
-# Model Evaluasi
+# 🍦🧁🦪 Model Evaluasi 🦪🧁🍦
 ## Arsitektur Model
 1. **MobileNetV2 Pre-trained**:
     - Menggunakan MobileNetV2 yang telah dilatih pada ImageNet dengan menghapus top layer (`include_top=False`).
@@ -79,7 +79,7 @@ Dari 10 kelas tomat dipilih kembali 4 kelas dengan distribusi masing-masing kela
 | 3  | Septoria_leaf_spot             | Septoria_leaf_spot             |
 | 4  | Tomato_Yellow_Leaf_Curl_Virus  | Tomato_Yellow_Leaf_Curl_Virus  |
 
-# How To Inference
+# 🍦🧁🦪 How To Inference 🦪🧁🍦
 Inference Menggunakan TensorFlow Serving.
 - Siapkan docker dekstop
 - Jalan command berikut pada terminal
