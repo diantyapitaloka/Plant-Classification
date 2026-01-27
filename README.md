@@ -10,6 +10,7 @@ Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 7. Optimasi Model: Mengubah model ke format TF-Lite menunjukkan kamu paham cara melakukan kompresi model agar bisa berjalan di perangkat dengan sumber daya terbatas (Mobile/IoT).
 8. Aplikabilitas: Menggunakan TFJS atau TF Serving membuktikan bahwa modelmu bukan sekadar angka di atas kertas, tapi siap digunakan dalam aplikasi dunia nyata (Web atau Production Server).
 9. End-to-End Skill: Ini menunjukkan kamu menguasai siklus hidup pengembangan ML secara utuh, mulai dari preprocessing (menangani resolusi tidak seragam) hingga deployment.
+10. Akurasi 95% (Poin 4 & 5): Untuk 3+ kelas dengan target akurasi setinggi ini, saya sarankan menggunakan Transfer Learning (seperti MobileNetV2 atau EfficientNet) karena lebih stabil dan cepat konvergen dibanding membangun CNN dari nol.
 
 # 🍦🧁🦪 Penjelasan Proyek 🦪🧁🍦
 Proyek ini merupakan proyek untuk membuat sebuah model yang dapat melakukan klasifikasi gambar. Diberikan kebebasan untuk memilih dataset yang ingin digunakan.
