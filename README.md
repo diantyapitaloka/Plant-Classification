@@ -7,6 +7,7 @@ Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 4. Akurasi pada training set dan validation set minimal 95%.
 5. Memiliki 3 buah kelas atau lebih.
 6. Melakukan inference menggunakan salah satu model (TF-Lite, TFJS atau savedmodel dengan tf serving).
+7. Optimasi Model: Mengubah model ke format TF-Lite menunjukkan kamu paham cara melakukan kompresi model agar bisa berjalan di perangkat dengan sumber daya terbatas (Mobile/IoT).
 
 # 🍦🧁🦪 Penjelasan Proyek 🦪🧁🍦
 Proyek ini merupakan proyek untuk membuat sebuah model yang dapat melakukan klasifikasi gambar. Diberikan kebebasan untuk memilih dataset yang ingin digunakan.
