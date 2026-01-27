@@ -13,6 +13,7 @@ Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 10. Akurasi 95% (Poin 4 & 5): Untuk 3+ kelas dengan target akurasi setinggi ini, saya sarankan menggunakan Transfer Learning (seperti MobileNetV2 atau EfficientNet) karena lebih stabil dan cepat konvergen dibanding membangun CNN dari nol.
 11. Callback (Poin 1): Jangan hanya pakai EarlyStopping. Tambahkan ReduceLROnPlateau agar model bisa "belajar lebih teliti" saat akurasi mulai stagnan mendekati 95%.
 12. Handling Dataset (Poin 2 & 3): Dengan $>10.000$ gambar dan resolusi tidak seragam, pastikan kamu menggunakan ImageDataGenerator atau tf.data.Dataset. Jangan lupa melakukan resizing di dalam layer Sequential (misal: layers.Resizing(img_height, img_width)) agar proses preprocessing lebih efisien.
+13. Karena datasetmu besar ($>10k$ gambar), pastikan pembagian dataset (split) dilakukan dengan rasio yang tepat (misal 80% train, 20% validation) agar validasi tetap merepresentasikan performa model yang sebenarnya.
 
 # 🍦🧁🦪 Penjelasan Proyek 🦪🧁🍦
 Proyek ini merupakan proyek untuk membuat sebuah model yang dapat melakukan klasifikasi gambar. Diberikan kebebasan untuk memilih dataset yang ingin digunakan.
