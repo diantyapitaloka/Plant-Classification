@@ -1,4 +1,4 @@
-# 🍦🧁🦪 Penilaian Proyek 🦪🧁🍦
+# 🍦🧁🦪 Criteria of Project 🦪🧁🍦
 
 Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 1. Mengimplementasikan Callback
