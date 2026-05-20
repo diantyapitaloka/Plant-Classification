@@ -3,6 +3,11 @@
 Criterion: Integrated custom and advanced TensorFlow/Keras callbacks into the training pipeline.
 
 Impact: This ensures dynamic monitoring of the training process, prevents overfitting, and optimizes learning rates in real time.
+2. Resolution-Agnostic Image Preprocessing
+Criterion: Successfully handled a raw dataset featuring non-uniform image dimensions and varied aspect ratios.
+
+Impact: Developed a robust preprocessing pipeline capable of standardizing diverse visual inputs without distorting essential features.
+
 
 Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 1. Mengimplementasikan Callback
