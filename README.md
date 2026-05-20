@@ -26,6 +26,8 @@ Impact: Escalated project complexity beyond simple binary classification, requir
 Criterion: Conducted successful inference utilizing a production-grade format, specifically choosing between TensorFlow Lite (TF-Lite), TensorFlow.js (TFJS), or a saved_model deployed via TensorFlow Serving (TF Serving).
 
 Impact: Bridged the gap between experimental code and a deployable software artifact.
+7. Edge-Device Model Optimization (TF-Lite)
+Converting the trained model into the compressed TF-Lite format demonstrates a profound understanding of model quantization and optimization. This process minimizes the model's computational and memory footprint, making it highly viable to run efficiently on edge devices and resource-constrained environments, such as Mobile devices and Internet of Things (IoT) hardware.
 
 Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 1. Mengimplementasikan Callback
