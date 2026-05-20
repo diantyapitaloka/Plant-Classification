@@ -18,6 +18,11 @@ Criterion: Achieved a minimum accuracy threshold of 95% on both the training and
 
 Impact: Proved model reliability while maintaining a tight generalization gap, ensuring the model does not suffer from underfitting or overfitting.
 
+5. Multi-Class Classification Infrastructure
+Criterion: Developed a model capable of categorizing data into three or more distinct classes.
+
+Impact: Escalated project complexity beyond simple binary classification, requiring a deeper evaluation of categorical cross-entropy and multi-class confusion matrices.
+
 Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 1. Mengimplementasikan Callback
 2. Gambar-gambar pada dataset memiliki resolusi yang tidak seragam.
