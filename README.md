@@ -28,6 +28,8 @@ Criterion: Conducted successful inference utilizing a production-grade format, s
 Impact: Bridged the gap between experimental code and a deployable software artifact.
 7. Edge-Device Model Optimization (TF-Lite)
 Converting the trained model into the compressed TF-Lite format demonstrates a profound understanding of model quantization and optimization. This process minimizes the model's computational and memory footprint, making it highly viable to run efficiently on edge devices and resource-constrained environments, such as Mobile devices and Internet of Things (IoT) hardware.
+8. Real-World Applicability (TFJS & TF Serving)
+By leveraging TensorFlow.js or TensorFlow Serving, the model transcends theoretical validation (numbers on paper) and transitions into a functional asset. Utilizing TFJS unlocks client-side web browser execution, while TF Serving establishes a robust, low-latency API endpoint on a production server capable of handling high-throughput requests.
 
 Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 1. Mengimplementasikan Callback
