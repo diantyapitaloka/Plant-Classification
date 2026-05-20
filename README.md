@@ -1,4 +1,8 @@
 # 🍦🧁🦪 Criteria of Project 🦪🧁🍦
+1. Advanced Callback Implementation
+Criterion: Integrated custom and advanced TensorFlow/Keras callbacks into the training pipeline.
+
+Impact: This ensures dynamic monitoring of the training process, prevents overfitting, and optimizes learning rates in real time.
 
 Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 1. Mengimplementasikan Callback
