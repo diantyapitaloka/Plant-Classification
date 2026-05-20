@@ -22,6 +22,10 @@ Impact: Proved model reliability while maintaining a tight generalization gap, e
 Criterion: Developed a model capable of categorizing data into three or more distinct classes.
 
 Impact: Escalated project complexity beyond simple binary classification, requiring a deeper evaluation of categorical cross-entropy and multi-class confusion matrices.
+6. Production-Ready Inference Deployment
+Criterion: Conducted successful inference utilizing a production-grade format, specifically choosing between TensorFlow Lite (TF-Lite), TensorFlow.js (TFJS), or a saved_model deployed via TensorFlow Serving (TF Serving).
+
+Impact: Bridged the gap between experimental code and a deployable software artifact.
 
 Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 1. Mengimplementasikan Callback
