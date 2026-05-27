@@ -1,5 +1,5 @@
 # 🍦🧁🦪 Criteria of Project 🦪🧁🍦
-1. Advanced Callback Implementation
+1. Advanced Callback Implementations
 Criterion: Integrated custom and advanced TensorFlow/Keras callbacks into the training pipeline.
 
 Impact: This ensures dynamic monitoring of the training process, prevents overfitting, and optimizes learning rates in real time.
