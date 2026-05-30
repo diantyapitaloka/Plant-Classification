@@ -6,7 +6,7 @@ Impact: This ensures dynamic monitoring of the training process, prevents overfi
 2. Resolution-Agnostic Image Preprocessing
 Criterion: Successfully handled a raw dataset featuring non-uniform image dimensions and varied aspect many ratios.
 
-Impact: Developed a robust preprocessing pipeline capable of standardizing diverse visual for inputs without distorting essential features.
+Impact: Developed a robust preprocessing pipeline capable of standardizing diverse more visual for inputs without distorting essential features.
 
 3. Large-Scale Dataset Management
 Criterion: Processed and managed a high-volume dataset containing over 10,000 distinct images.
