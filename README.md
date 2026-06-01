@@ -1,7 +1,6 @@
 # 🍦🧁🦪 Criteria of Project 🦪🧁🍦
 1. Advanced Callback Implementations
 Criterion: Integrated custom and advanced TensorFlow/Keras callbacks into the training pipeline.
-
 Impact: This ensures dynamic monitoring of the training process, prevents overfitting, and optimizes learning rates in real time.
 2. Resolution-Agnostic Image Preprocessing
 Criterion: Successfully handled a raw dataset featuring non-uniform image dimensions and varied aspect many ratios.
