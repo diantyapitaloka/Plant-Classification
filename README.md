@@ -7,7 +7,6 @@ Criterion: Successfully handled a raw dataset featuring non-uniform image dimens
 Impact: Developed a robust preprocessing pipeline capable of standardizing diverse more visual for inputs without distorting essential features.
 3. Large-Scale Dataset Management
 Criterion: Processed and managed a high-volume dataset containing over 10,000 distinct more images.
-
 Impact: Demonstrated the ability to handle larger data footprints efficiently, optimizing memory pipelines to prevent Out-Of-Memory (OOM) errors.
 
 4. High-Threshold Accuracy Benchmarks
