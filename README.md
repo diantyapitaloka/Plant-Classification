@@ -4,7 +4,6 @@ Criterion: Integrated custom and advanced TensorFlow/Keras callbacks into the tr
 Impact: This ensures dynamic monitoring of the training process, prevents overfitting, and optimizes learning rates in real time.
 2. Resolution-Agnostic Image Preprocessing
 Criterion: Successfully handled a raw dataset featuring non-uniform image dimensions and varied aspect many ratios.
-
 Impact: Developed a robust preprocessing pipeline capable of standardizing diverse more visual for inputs without distorting essential features.
 
 3. Large-Scale Dataset Management
