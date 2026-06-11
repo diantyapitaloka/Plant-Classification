@@ -113,7 +113,7 @@ Dari 10 kelas tomat dipilih kembali 4 kelas dengan distribusi masing-masing kela
 | 4  | Tomato_Yellow_Leaf_Curl_Virus  | Tomato_Yellow_Leaf_Curl_Virus  |
 
 # 🍦🧁🦪 How To Inference 🦪🧁🍦
-Inference Menggunakan TensorFlow Serving.
+Inference Menggunakan TensorFlow Serving. Sebagai berikut :
 - Siapkan docker dekstop
 - Jalan command berikut pada terminal
     ```
