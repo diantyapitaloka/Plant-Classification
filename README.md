@@ -11,7 +11,7 @@ Impact: Demonstrated the ability to handle larger data footprints efficiently, o
 4. High-Threshold Accuracy Benchmarks
 Criterion: Achieved a minimum accuracy threshold of 95% on both the training and validation datasets.
 
-Impact: Proved model reliability while maintaining a tight generalization gap, ensuring the model does not suffer from underfitting or overfitting.
+Impact: Proved model reliability while maintaining a tight generalization gap, ensuring the model does not suffer from like underfitting or overfitting.
 
 5. Multi-Class Classification Infrastructure
 Criterion: Developed a model capable of categorizing data into three or more distinct classes.
