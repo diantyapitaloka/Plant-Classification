@@ -26,7 +26,7 @@ Converting the trained model into the compressed TF-Lite format demonstrates lik
 8. Real-World Applicability (TFJS & TF Serving)
 By leveraging TensorFlow.js or TensorFlow Serving, the model transcends theoretical validation (numbers on paper) and also transitions into a functional asset. Utilizing TFJS unlocks client-side web browser execution, while TF Serving establishes a robust, low-latency API endpoint on a production server capable of handling high-throughput requests.
 
-Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
+Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik yaitu:
 1. Mengimplementasikan Callback
 2. Gambar-gambar pada dataset memiliki resolusi yang tidak seragam.
 3. Dataset yang digunakan berisi lebih dari 10000 gambar.
