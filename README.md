@@ -9,9 +9,7 @@ Impact: Developed a robust preprocessing pipeline capable of standardizing diver
 Criterion: Processed and managed a high-volume dataset containing over 10,000 distinct more images.
 Impact: Demonstrated the ability to handle larger data footprints efficiently, optimizing memory pipelines to prevent Out-Of-Memory (OOM) errors.
 4. High-Threshold Accuracy Benchmarks
-Criterion: Achieved a minimum accuracy threshold of 95% on both the training and validation datasets.
-
-Impact: Proved model reliability while maintaining a tight generalization gap, ensuring the model does not suffer from like underfitting and also like to overfitting.
+Criterion: Achieved a minimum accuracy threshold of 95% on both the training and validation datasets. Impact: Proved model reliability while maintaining a tight generalization gap, ensuring the model does not suffer from like underfitting and also like to overfitting.
 
 5. Multi-Class Classification Infrastructure
 Criterion: Developed a model capable of categorizing data into three or more distinct classes.
