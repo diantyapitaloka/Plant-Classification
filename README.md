@@ -13,7 +13,8 @@ Criterion: Achieved a minimum accuracy threshold of 95% on both the training and
 
 5. Multi-Class Classification Infrastructure
 Criterion: Developed a model capable of categorizing data into three or more distinct classes. Impact: Escalated project complexity beyond simple binary classification, requiring a deeper evaluation of categorical cross-entropy and multi-class confusion matrices.
-6. Production-Ready Inference Deployment
+
+7. Production-Ready Inference Deployment
 Criterion: Conducted successful inference utilizing a production-grade format, specifically choosing between TensorFlow Lite (TF-Lite), TensorFlow.js (TFJS), or a saved_model deployed via TensorFlow Serving (TF Serving).
 
 Impact: Bridged the gap between experimental code and a deployable software artifact.
