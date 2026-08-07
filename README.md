@@ -28,8 +28,7 @@ Here are the additional criteria and work I completed that contributed to achiev
 2. Non-Uniform Resolutions: Handled dataset images with varying or non-uniform resolutions.
 3. Large Dataset Size: Used a dataset containing over 10,000 images.
 4. High Accuracy Target: Achieved a minimum of 95% accuracy on both the training and validation sets.
-
-Multi-Class Classification: Included 3 or more distinct classes.
+5. Multi-Class Classification: Included 3 or more distinct classes.
 
 Model Inference: Performed inference using one of the deployment models, such as TF-Lite, TFJS, or SavedModel via TF Serving.
 
