@@ -27,8 +27,7 @@ Here are the additional criteria and work I completed that contributed to achiev
 1. Callback Implementation: Implemented custom or standard callbacks during training.
 2. Non-Uniform Resolutions: Handled dataset images with varying or non-uniform resolutions.
 3. Large Dataset Size: Used a dataset containing over 10,000 images.
-
-High Accuracy Target: Achieved a minimum of 95% accuracy on both the training and validation sets.
+4. High Accuracy Target: Achieved a minimum of 95% accuracy on both the training and validation sets.
 
 Multi-Class Classification: Included 3 or more distinct classes.
 
