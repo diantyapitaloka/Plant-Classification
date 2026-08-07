@@ -25,8 +25,7 @@ By leveraging TensorFlow.js or TensorFlow Serving, the model transcends theoreti
 
 Here are the additional criteria and work I completed that contributed to achieving the highest score:
 1. Callback Implementation: Implemented custom or standard callbacks during training.
-
-Non-Uniform Resolutions: Handled dataset images with varying or non-uniform resolutions.
+2. Non-Uniform Resolutions: Handled dataset images with varying or non-uniform resolutions.
 
 Large Dataset Size: Used a dataset containing over 10,000 images.
 
