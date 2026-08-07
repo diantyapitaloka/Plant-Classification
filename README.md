@@ -33,8 +33,7 @@ Here are the additional criteria and work I completed that contributed to achiev
 7. Model Optimization: Converting the model to TF-Lite format demonstrates an understanding of model compression techniques to run efficiently on resource-constrained devices like Mobile or IoT.
 8. Applicability: Implementing TFJS or TF Serving proves that the model goes beyond theoretical metrics and is ready for real-world applications on Web or Production Servers.
 9. End-to-End Skill: Demonstrates mastery of the full machine learning development lifecycle, from data preprocessing, including handling non-uniform resolutions, all the way to model deployment.
-
-High Accuracy Execution (Points 4 and 5): For 3 or more classes with a high accuracy target of 95%, Transfer Learning using models such as MobileNetV2 or EfficientNet was utilized to ensure stability and faster convergence compared to building a CNN from scratch.
+10. High Accuracy Execution (Points 4 and 5): For 3 or more classes with a high accuracy target of 95%, Transfer Learning using models such as MobileNetV2 or EfficientNet was utilized to ensure stability and faster convergence compared to building a CNN from scratch.
 
 Enhanced Callbacks (Point 1): Beyond using EarlyStopping, ReduceLROnPlateau was incorporated to enable finer learning rate adjustments when accuracy plateaus near the 95% threshold.
 
