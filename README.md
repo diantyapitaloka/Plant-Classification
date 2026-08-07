@@ -36,8 +36,7 @@ Here are the additional criteria and work I completed that contributed to achiev
 10. High Accuracy Execution (Points 4 and 5): For 3 or more classes with a high accuracy target of 95%, Transfer Learning using models such as MobileNetV2 or EfficientNet was utilized to ensure stability and faster convergence compared to building a CNN from scratch.
 11. Enhanced Callbacks (Point 1): Beyond using EarlyStopping, ReduceLROnPlateau was incorporated to enable finer learning rate adjustments when accuracy plateaus near the 95% threshold.
 12. Dataset Handling (Points 2 and 3): With over 10,000 images of varying resolutions, efficient data pipelines were implemented using ImageDataGenerator or tf.data.Dataset. Image resizing was included directly inside the Sequential model, such as using layers.Resizing(img_height, img_width), for optimized preprocessing.
-
-Dataset Splitting: Given the large dataset size of more than 10,000 images, an appropriate split ratio, such as 80% training and 20% validation, was applied to ensure the validation metrics accurately represent real-world model performance.
+13. Dataset Splitting: Given the large dataset size of more than 10,000 images, an appropriate split ratio, such as 80% training and 20% validation, was applied to ensure the validation metrics accurately represent real-world model performance.
 
 # 🍦🧁🦪 Penjelasan Proyek 🦪🧁🍦
 Proyek ini merupakan proyek untuk membuat sebuah model yang dapat melakukan klasifikasi gambar. Diberikan kebebasan untuk memilih dataset yang ingin digunakan.
