@@ -34,8 +34,7 @@ Here are the additional criteria and work I completed that contributed to achiev
 8. Applicability: Implementing TFJS or TF Serving proves that the model goes beyond theoretical metrics and is ready for real-world applications on Web or Production Servers.
 9. End-to-End Skill: Demonstrates mastery of the full machine learning development lifecycle, from data preprocessing, including handling non-uniform resolutions, all the way to model deployment.
 10. High Accuracy Execution (Points 4 and 5): For 3 or more classes with a high accuracy target of 95%, Transfer Learning using models such as MobileNetV2 or EfficientNet was utilized to ensure stability and faster convergence compared to building a CNN from scratch.
-
-Enhanced Callbacks (Point 1): Beyond using EarlyStopping, ReduceLROnPlateau was incorporated to enable finer learning rate adjustments when accuracy plateaus near the 95% threshold.
+11. Enhanced Callbacks (Point 1): Beyond using EarlyStopping, ReduceLROnPlateau was incorporated to enable finer learning rate adjustments when accuracy plateaus near the 95% threshold.
 
 Dataset Handling (Points 2 and 3): With over 10,000 images of varying resolutions, efficient data pipelines were implemented using ImageDataGenerator or tf.data.Dataset. Image resizing was included directly inside the Sequential model, such as using layers.Resizing(img_height, img_width), for optimized preprocessing.
 
