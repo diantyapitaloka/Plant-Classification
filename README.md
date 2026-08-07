@@ -31,8 +31,7 @@ Here are the additional criteria and work I completed that contributed to achiev
 5. Multi-Class Classification: Included 3 or more distinct classes.
 6. Model Inference: Performed inference using one of the deployment models, such as TF-Lite, TFJS, or SavedModel via TF Serving.
 7. Model Optimization: Converting the model to TF-Lite format demonstrates an understanding of model compression techniques to run efficiently on resource-constrained devices like Mobile or IoT.
-
-Applicability: Implementing TFJS or TF Serving proves that the model goes beyond theoretical metrics and is ready for real-world applications on Web or Production Servers.
+8. Applicability: Implementing TFJS or TF Serving proves that the model goes beyond theoretical metrics and is ready for real-world applications on Web or Production Servers.
 
 End-to-End Skill: Demonstrates mastery of the full machine learning development lifecycle, from data preprocessing, including handling non-uniform resolutions, all the way to model deployment.
 
