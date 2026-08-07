@@ -30,8 +30,7 @@ Here are the additional criteria and work I completed that contributed to achiev
 4. High Accuracy Target: Achieved a minimum of 95% accuracy on both the training and validation sets.
 5. Multi-Class Classification: Included 3 or more distinct classes.
 6. Model Inference: Performed inference using one of the deployment models, such as TF-Lite, TFJS, or SavedModel via TF Serving.
-
-Model Optimization: Converting the model to TF-Lite format demonstrates an understanding of model compression techniques to run efficiently on resource-constrained devices like Mobile or IoT.
+7. Model Optimization: Converting the model to TF-Lite format demonstrates an understanding of model compression techniques to run efficiently on resource-constrained devices like Mobile or IoT.
 
 Applicability: Implementing TFJS or TF Serving proves that the model goes beyond theoretical metrics and is ready for real-world applications on Web or Production Servers.
 
