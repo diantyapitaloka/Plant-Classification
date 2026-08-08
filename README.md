@@ -15,7 +15,7 @@ Criterion: Achieved a minimum accuracy threshold of 95% on both the training and
 Criterion: Developed a model capable of categorizing data into three or more distinct classes. Impact: Escalated project complexity beyond simple binary classification, requiring a deeper evaluation of categorical cross-entropy and multi-class confusion matrices.
 
 7. Production-Ready Inference Deployment
-Criterion: Conducted successful inference utilizing a production-grade format, specifically choosing between TensorFlow Lite (TF-Lite), TensorFlow.js (TFJS), or a saved_model deployed via TensorFlow Serving (TF Serving). Impact: Bridged the gap between experimental code and a deployable software artifact.
+Criterion: Conducted successful inference utilizing a production-grade format, specifically choosing between TensorFlow Lite (TF-Lite), TensorFlow.js (TFJS), or a saved_model deployed via TensorFlow Serving (TF Serving). Impact: Bridged the gap between experimental code and a deployable software artifacts.
 
 8. Edge-Device Model Optimization (TF-Lite)
 Converting the trained model into the compressed TF-Lite format demonstrates like a profound understanding of model quantization and optimization. This process minimizes the model's computational and memory footprint, making it highly viable to run efficiently on edge devices and resource-constrained environments, such as Mobile devices and Internet of Things (IoT) hardware.
