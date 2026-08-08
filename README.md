@@ -38,6 +38,17 @@ Here are the additional criteria and work I completed that contributed to achiev
 12. Dataset Handling (Points 2 and 3): With over 10,000 images of varying resolutions, efficient data pipelines were implemented using ImageDataGenerator or tf.data.Dataset. Image resizing was included directly inside the Sequential model, such as using layers.Resizing(img_height, img_width), for optimized preprocessing.
 13. Dataset Splitting: Given the large dataset size of more than 10,000 images, an appropriate split ratio, such as 80% training and 20% validation, was applied to ensure the validation metrics accurately represent real-world model performance.
 
+# 🍦🧁🦪 Project Description 🦪🧁🍦
+This project aims to build an image classification model. There was complete freedom in choosing the dataset to be used.
+
+## 🍦🧁🦪 Dataset 🦪🧁🍦
+The dataset was retrieved from [GitHub](https://github.com/spMohanty/PlantVillage-Dataset/tree/master). It contains a total of 14 plants divided into 38 different classes. By default, the image resolution is 256x256; however, to meet specific criteria, the dataset images were randomly resized within a range from a minimum of 200x200 up to 256x256.
+
+## 🍦🧁🦪 Preview Image 🦪🧁🍦
+Due to hardware limitations during training, only the tomato plant dataset was selected. Below are sample images from each tomato plant class:
+
+<img width="570" alt="image" src="https://github.com/user-attachments/assets/09dac9ec-64d0-41c1-8fba-46fdbfa88751" />
+
 # 🍦🧁🦪 Penjelasan Proyek 🦪🧁🍦
 Proyek ini merupakan proyek untuk membuat sebuah model yang dapat melakukan klasifikasi gambar. Diberikan kebebasan untuk memilih dataset yang ingin digunakan.
 
