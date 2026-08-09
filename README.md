@@ -61,7 +61,7 @@ From the 10 tomato classes, 4 classes were selected with the distribution for ea
 # 🍦🧁🦪 Evaluation Model 🦪🧁🍦
 ## Architecture Model
 1. **MobileNetV2 Pre-trained**:
-    - Menggunakan MobileNetV2 yang telah dilatih pada ImageNet dengan menghapus top layer (`include_top=False`).
+    - Uses MobileNetV2 pre-trained on ImageNet with the top layer removed (`include_top=False`).
     - Ukuran input model adalah `(150, 150, 3)`.
 
 2. **Layer Beku**:
