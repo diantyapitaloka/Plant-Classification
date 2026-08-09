@@ -46,7 +46,7 @@ Due to hardware limitations during training, only the tomato plant dataset was s
 <img width="570" alt="image" src="https://github.com/user-attachments/assets/09dac9ec-64d0-41c1-8fba-46fdbfa88751" />
 
 
-## 🍦🧁🦪 Distribusi Gambar 🦪🧁🍦
+## 🍦🧁🦪 Image Distribution 🦪🧁🍦
 Dari 10 kelas tomat dipilih kembali 4 kelas dengan distribusi masing-masing kelas sebagai berikut:
 
 | Condition                     | Number of Images |
