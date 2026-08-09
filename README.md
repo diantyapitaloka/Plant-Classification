@@ -47,7 +47,7 @@ Due to hardware limitations during training, only the tomato plant dataset was s
 
 
 ## 🍦🧁🦪 Image Distribution 🦪🧁🍦
-Dari 10 kelas tomat dipilih kembali 4 kelas dengan distribusi masing-masing kelas sebagai berikut:
+From the 10 tomato classes, 4 classes were selected with the distribution for each class as follows:
 
 | Condition                     | Number of Images |
 |-------------------------------|------------------|
