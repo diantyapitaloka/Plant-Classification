@@ -65,7 +65,7 @@ From the 10 tomato classes, 4 classes were selected with the distribution for ea
     - Input model size is `(150, 150, 3)`.
 
 2. **Frozen Layers**:
-    - Semua layer MobileNetV2 dibekukan (`layer.trainable = False`) untuk mempertahankan bobot dan fitur yang telah dilatih.
+    - All MobileNetV2 layers are frozen (`layer.trainable = False`) to preserve the pre-trained weights and features.
 
 3. **Layer Tambahan**:
     - Layer `Conv2D` dengan 32 filter, kernel size 3x3, dan aktivasi ReLU, diikuti oleh `MaxPooling2D` dengan pool size 2x2.
