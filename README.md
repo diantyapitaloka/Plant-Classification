@@ -68,7 +68,7 @@ From the 10 tomato classes, 4 classes were selected with the distribution for ea
     - All MobileNetV2 layers are frozen (`layer.trainable = False`) to preserve the pre-trained weights and features.
 
 3. **Layer Tambahan**:
-    - Layer `Conv2D` dengan 32 filter, kernel size 3x3, dan aktivasi ReLU, diikuti oleh `MaxPooling2D` dengan pool size 2x2.
+    - Conv2D` layer with 32 filters, 3x3 kernel size, and ReLU activation, followed by `MaxPooling2D` with a 2x2 pool size.
     - Layer `Conv2D` dengan 64 filter, kernel size 3x3, dan aktivasi ReLU, diikuti oleh `MaxPooling2D` dengan pool size 2x2.
 
 4. **Layer Flatten dan Fully Connected**:
