@@ -75,7 +75,7 @@ From the 10 tomato classes, 4 classes were selected with the distribution for ea
     - Features obtained from the previous layers are flattened using `Flatten`.
     - `Dropout` layer with a rate of 0.5 to prevent overfitting.
     - `Dense` layer with 128 units and ReLU activation.
-    - Layer output `Dense` dengan 4 unit dan aktivasi softmax untuk klasifikasi multi-kelas.
+    - Output `Dense` layer with 4 units and softmax activation for multi-class classification.
 
 ## Grafik Akurasi dan Loss 
 
