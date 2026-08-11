@@ -69,7 +69,7 @@ From the 10 tomato classes, 4 classes were selected with the distribution for ea
 
 3. **Layer Tambahan**:
     - Conv2D` layer with 32 filters, 3x3 kernel size, and ReLU activation, followed by `MaxPooling2D` with a 2x2 pool size.
-    - Layer `Conv2D` dengan 64 filter, kernel size 3x3, dan aktivasi ReLU, diikuti oleh `MaxPooling2D` dengan pool size 2x2.
+    - Conv2D` layer with 64 filters, 3x3 kernel size, and ReLU activation, followed by `MaxPooling2D` with a 2x2 pool size.
 
 4. **Layer Flatten dan Fully Connected**:
     - Fitur yang didapatkan dari layer sebelumnya di-flatten menggunakan `Flatten`.
