@@ -73,7 +73,7 @@ From the 10 tomato classes, 4 classes were selected with the distribution for ea
 
 4. **Layer Flatten and Fully Connected**:
     - Features obtained from the previous layers are flattened using `Flatten`.
-    - Layer `Dropout` dengan rate 0.5 untuk mencegah overfitting.
+    - `Dropout` layer with a rate of 0.5 to prevent overfitting.
     - Layer `Dense` dengan 128 unit dan aktivasi ReLU.
     - Layer output `Dense` dengan 4 unit dan aktivasi softmax untuk klasifikasi multi-kelas.
 
