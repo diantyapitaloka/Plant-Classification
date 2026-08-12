@@ -77,7 +77,7 @@ From the 10 tomato classes, 4 classes were selected with the distribution for ea
     - `Dense` layer with 128 units and ReLU activation.
     - Output `Dense` layer with 4 units and softmax activation for multi-class classification.
 
-## Grafik Akurasi dan Loss 
+## Accuration Graph
 
 
 <img width="518" alt="image" src="https://github.com/user-attachments/assets/fa214c1a-e59e-4fb3-91cf-571b15a3f563" />
