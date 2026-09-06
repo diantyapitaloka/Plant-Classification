@@ -7,7 +7,7 @@ Criterion: Successfully handled a raw dataset featuring non-uniform image dimens
 Impact: Developed a robust preprocessing pipeline capable of standardizing diverse more visual for inputs without distorting essential to the feature.
 3. Large-Scale Dataset Management
 Criterion: Processed and managed a high-volume dataset containing over 10,000 distinct more images.
-Impact: Demonstrated the ability to handle larger data footprints efficiently, optimizing memory pipelines to prevent Out-Of-Memory (OOM) errors.
+Impact: Demonstrated the ability to handle larger data footprints efficiently, optimizing memory pipeline to prevent Out-Of-Memory (OOM) errors.
 4. High-Threshold Accuracy Benchmarks
 Criterion: Achieved a minimum accuracy threshold of 95% on both the training and validation datasets. Impact: Proved model reliability while maintaining a tight generalization gap, ensuring the model does not suffer from like underfitting and also like to overfitting.
 5. Multi-Class Classification Infrastructure
