@@ -41,7 +41,7 @@ This project aims to build an image classification model. There was complete fre
 The dataset was retrieved from [GitHub](https://github.com/spMohanty/PlantVillage-Dataset/tree/master). It contains a total of 14 plants divided into 38 different classes. By default, the image resolution is 256x256; however, to meet specific criteria, the dataset images were randomly resized within a range from a minimum of 200x200 up to 256x256.
 
 ## 🍦🧁🦪 Preview Image 🦪🧁🍦
-Due to hardware limitations during training, only the tomato plant dataset was selected. Below are sample images from each tomato plant class:
+Due to hardware limitations during training, only the tomato plant dataset was selected. Below are sample images from each tomato plant classes:
 
 <img width="570" alt="image" src="https://github.com/user-attachments/assets/09dac9ec-64d0-41c1-8fba-46fdbfa88751" />
 
