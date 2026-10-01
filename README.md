@@ -35,7 +35,7 @@ Here are the additional criteria and work I completed that contributed to achiev
 13. Dataset Splitting: Given the large dataset size of more than 10,000 images, an appropriate split ratio, such as 80% training and 20% validation, was applied to ensure the validation metrics accurately represent real-world model performance.
 
 # 🍦🧁🦪 Project Description 🦪🧁🍦
-This project aims to build an image classification model. There was complete freedom in choosing the dataset to be used.
+This project aims to build an image classification model. There was complete freedom in choosing the dataset to be use.
 
 ## 🍦🧁🦪 Dataset 🦪🧁🍦
 The dataset was retrieved from [GitHub](https://github.com/spMohanty/PlantVillage-Dataset/tree/master). It contains a total of 14 plants divided into 38 different classes. By default, the image resolution is 256x256; however, to meet specific criteria, the dataset images were randomly resized within a range from a minimum of 200x200 up to 256x256.
