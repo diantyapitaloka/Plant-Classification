@@ -10,7 +10,7 @@ Criterion: Processed and managed a high-volume dataset containing over 10,000 di
 Impact: Demonstrated the ability to handle larger data footprints efficiently, optimizing memory pipeline to prevent Out-Of-Memory (OOM) errors.
 4. High-Threshold Accuracy Benchmarks
 Criterion: Achieved a minimum accuracy threshold of 95% on both the training and validation datasets. Impact: Proved model reliability while maintaining a tight generalization gap, ensuring the model does not suffer from like underfitting and also like to overfitting.
-5. Multi-Class Classification Infrastructure
+5. Multi-Class Classification Infrastructures
 Criterion: Developed a model capable of categorizing data into three or more distinct classes. Impact: Escalated project complexity beyond simple binary classification, requiring a deeper evaluation of categorical cross-entropy and multi-class confusion matrices.
 6. Production-Ready Inference Deployment
 Criterion: Conducted successful inference utilizing a production-grade format, specifically choosing between TensorFlow Lite (TF-Lite), TensorFlow.js (TFJS), or a saved_model deployed via TensorFlow Serving (TF Serving). Impact: Bridged the gap between experimental code and a deployable software artifact.
